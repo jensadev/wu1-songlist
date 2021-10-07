@@ -1,3 +1,13 @@
+body {
+    background-color: #f0f0f0;
+    color: #121212;
+}
+
+nav {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
 .container {
     max-width: 48rem;
     width: 100%;
@@ -10,4 +20,10 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+@media screen and (max-width: 512px) {
+    .record__header {
+        flex-direction: column;
+    }
 }
