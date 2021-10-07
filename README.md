@@ -26,3 +26,21 @@ Titta på skissen för att se vilka taggar som du bör använda.
 Märk upp texten du har letat reda på.
 
 [Commit för detta](https://github.com/jensnti/wu1-songlist/blob/e4631935faa2016cb73e6d3769bea2d2fa4fa8fd/index.html)
+
+## Formattering
+
+Använd CSS och display flex för en central layout.
+
+### Font
+
+Vi kan kolla vad bandet använder för font på deras hemsida.
+Prova Chrome tillägget Font-ninja.
+
+När vi vet det kan vi se om det är en google font, om så är fallet kan vi använda
+[font joy](https://fontjoy.com/) för att skapa en font pairing.
+Vi gör detta för att oftast vill vi ha ett läsbart typsnitt till brödtexten.
+
+### Färger
+
+För att skapa ett färgschema från sidan kan vi använda en tjänst som hämtar färger
+ur skivans omslagsbild. Ett exempel på detta är [Adobe color](https://color.adobe.com/create/image)
