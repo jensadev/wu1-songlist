@@ -58,9 +58,10 @@ img {
 }
 
 .back-to-top__link {
+    padding: .2rem;
     position: fixed;
     top: calc(100vh - 5rem);
-    right: 2rem;
+    background-color: #FEFED8;
 }
 
 .container {
