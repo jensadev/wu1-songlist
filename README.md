@@ -12,7 +12,7 @@
 ## Skiss
 
 Målet är att skapa en sidstruktur som följande.
-![Skiss](images/skiss.jpg)
+![Skiss](images/IMG_20211007_093326.jpg)
 
 ## Koda sidstrukturen
 
