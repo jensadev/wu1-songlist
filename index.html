@@ -7,20 +7,20 @@
     <title>Opeth</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Unna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav>
-        <div class="container">
-            <h1>Opeth</h1>
+        <div class="container nav__inner">
+            <h1><a class="nav__heading" href="/">Opeth</a></h1>
         </div>
     </nav>
     <main class="container">
         <header class="record__header">
             <figure>
                 <img src="images/in-cauda-venenum.png" alt="Omslagsbild på skivan">
-                <figcaption>Omslagsbild på skivan</figcaption>
+                <figcaption>Skivomslag: In Cauda Venenum</figcaption>
             </figure>
             <aside>
                 <h2>In Cauda Venenum</h2>
@@ -44,14 +44,20 @@
                 </ol>
             </aside>
         </header>
-        <section id="livets-tradgard">
+        <section id="livets-tradgard" class="lyrics">
             <h3>Livets trädgård</h3>
             <p><q>För det... om man man slutar tänka... då blir man död</q></p>
         </section>
-        <section id="svekets-prins">
+        <section id="svekets-prins" class="lyrics">
             <h3>Svekets prins</h3>
             <p>
-                <q>Vid ett årsskifte så upplever många en känsla av vemod vid tanke på det som aldrig mer återkommer. För andra är det ett ögonblick av förväntan inför möjligheten att erövra det nya. Andra åter känner oro inför en förändring som innebär ovisshet och kanske försämring. Alla dessa stämningar är var för sig förklarliga. Någon sa här om dagen att vi lever i det stora uppbrottets tid…</q>
+                <q>
+                    Vid ett årsskifte så upplever många en känsla av vemod.<br>
+                    Vid tanke på det som aldrig mer återkommer.<br>
+                    För andra är det ett ögonblick av förväntan inför möjligheten att erövra det nya.<br>
+                    Andra åter känner oro inför en förändring som innebär ovisshet och kanske försämring.<br>
+                    Alla dessa stämningar är var för sig förklarliga.<br>
+                    Någon sa här om dagen att vi lever i det stora uppbrottets tid…</q>
             </p>
             <p>
                 Svekets prins går ned på knä<br>
@@ -84,7 +90,7 @@
                 Och kommer in…
             </p>
         </section>
-        <section id="hjartat-vet-vad-handen-gor">
+        <section id="hjartat-vet-vad-handen-gor" class="lyrics">
             <h3>Hjärtat vet vad handen gör</h3>
             <p>
                 <q>Det är för bedrövligt! Usch!</q>
@@ -150,5 +156,14 @@
             </p>
         </section>
     </main>
+    <footer>
+        <div class="container">
+            <p>Innehållet på sidan är &copy; <a href="http://opeth.com/" target="_blank" rel="noreferrer noopener">Opeth</a>.</p>
+            <p>Den här sidan är skapad för utbildningssyfte i kursen Webbutveckling 1.</p>
+        </div>
+    </footer>
+    <div class="container back-to-top__wrapper">
+        <a href="#" class="back-to-top__link" aria-label="Back to Top">Back to top</a>
+    </div>
 </body>
 </html>
